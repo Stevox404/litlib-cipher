@@ -99,8 +99,6 @@ function decrypt(data, key){
 }
 
 module.exports = { 
-    cipher: {
-        hashText, generateSalt, generateKey, encrypt, decrypt, 
-        randomBytes: crypto.randomBytes
-    }
+    hashText, generateSalt, generateKey, encrypt, decrypt, 
+    randomBytes: crypto.randomBytes
 }
